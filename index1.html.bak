@@ -20,6 +20,13 @@
 		font-family: arial;
 		font-size: 0.8em;
 	}
+	#message{
+     background: #ccc;
+	 border: #fff solid 0;
+	 font-family: arial;
+	 margin-top:1em;
+	 height:20px;
+	}
 	#screen {
 		position: absolute;
 		width: 100%;
@@ -116,7 +123,6 @@ password();
 // update: April 17 : added hyperlinks, tweaked z-index
 // =============================================================
 
-	
 var m3D = function () {
 	/* ---- private vars ---- */
 	var diapo = [],
@@ -376,7 +382,9 @@ var m3D = function () {
 		&nbsp;&nbsp;下面是导航哦 ↓
 		 <p align="center">(╭￣3￣)╭♡ </p>
 		<div id="bar"></div>
-		<div id="urlInfo"></div>
+		<div>
+		<input type="text" id="message" />
+		</div>
 	</div>
 	 
 
